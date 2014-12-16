@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SNN.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="listRecentProjects" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="applicationLanguage" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="spikeBarColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="spikeBarColorInput" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="spikeBarColorLay1" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="spikeBarColorOutput" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Lime</Value>
+    </Setting>
+    <Setting Name="pathStructures" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Networks\</Value>
+    </Setting>
+    <Setting Name="pathStimuli" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Stimulus\</Value>
+    </Setting>
+    <Setting Name="pathOutput" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Output\</Value>
+    </Setting>
+    <Setting Name="firstLaunch" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="howManyRecent" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="pathHardware" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Hardware\</Value>
+    </Setting>
+    <Setting Name="languageChange" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="pathAnnSrc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Hardware\ANN\src\</Value>
+    </Setting>
+    <Setting Name="pathSnnSrc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\Hardware\SNN\src\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

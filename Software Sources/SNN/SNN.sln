@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNN", "SNN\SNN.csproj", "{86D80C94-4ED8-4DF6-9E30-F1E04B539406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsLibrary", "MethodsLibrary\MethodsLibrary.csproj", "{9EEF97A9-795D-41A7-9923-4024721238AD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SNNsetup", "SNNsetup\SNNsetup.vdproj", "{B2532AE2-35FB-4E1F-9A16-D0F9096B2637}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86D80C94-4ED8-4DF6-9E30-F1E04B539406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D80C94-4ED8-4DF6-9E30-F1E04B539406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D80C94-4ED8-4DF6-9E30-F1E04B539406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D80C94-4ED8-4DF6-9E30-F1E04B539406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEF97A9-795D-41A7-9923-4024721238AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEF97A9-795D-41A7-9923-4024721238AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEF97A9-795D-41A7-9923-4024721238AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEF97A9-795D-41A7-9923-4024721238AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2532AE2-35FB-4E1F-9A16-D0F9096B2637}.Debug|Any CPU.ActiveCfg = Debug
+		{B2532AE2-35FB-4E1F-9A16-D0F9096B2637}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86D80C94-4ED8-4DF6-9E30-F1E04B539406}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SNN</RootNamespace>
+    <AssemblyName>SNN</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Adam\Documents\Visual Studio 2008\zedgraph_dll_v515\zedgraph_dll_v5.1.5\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Globals\Flags.cs" />
+    <Compile Include="Globals\Variables.cs" />
+    <Compile Include="Globals\VHDLcoding.cs" />
+    <Compile Include="Interaction\Events.cs" />
+    <Compile Include="LanguagePack\ControlsLanguage.cs" />
+    <Compile Include="LanguagePack\Messages.cs" />
+    <Compile Include="Logic\Graphs.cs" />
+    <Compile Include="Logic\Methods.cs" />
+    <Compile Include="OtherForms\Help\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Help\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\MDIforms\WorkSpace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\MDIforms\WorkSpace.Designer.cs">
+      <DependentUpon>WorkSpace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\Simulation\PotentialGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Simulation\PotentialGraph.Designer.cs">
+      <DependentUpon>PotentialGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\Tools\ApplicationOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Tools\ApplicationOptions.Designer.cs">
+      <DependentUpon>ApplicationOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\Tools\Gaussian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Tools\Gaussian.Designer.cs">
+      <DependentUpon>Gaussian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\Tools\Generator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Tools\Generator.Designer.cs">
+      <DependentUpon>Generator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\Tools\NetworkPlot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Tools\NetworkPlot.Designer.cs">
+      <DependentUpon>NetworkPlot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\Tools\PlotInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Tools\PlotInput.Designer.cs">
+      <DependentUpon>PlotInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\Tools\PlotLayer1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Tools\PlotLayer1.Designer.cs">
+      <DependentUpon>PlotLayer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\Tools\PlotOutput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Tools\PlotOutput.Designer.cs">
+      <DependentUpon>PlotOutput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherForms\Tools\StimuliCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherForms\Tools\StimuliCreator.Designer.cs">
+      <DependentUpon>StimuliCreator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="OtherForms\Help\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\MDIforms\WorkSpace.resx">
+      <DependentUpon>WorkSpace.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\Simulation\PotentialGraph.resx">
+      <DependentUpon>PotentialGraph.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\Tools\ApplicationOptions.resx">
+      <DependentUpon>ApplicationOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\Tools\Gaussian.resx">
+      <DependentUpon>Gaussian.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\Tools\Generator.resx">
+      <DependentUpon>Generator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\Tools\NetworkPlot.resx">
+      <DependentUpon>NetworkPlot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\Tools\PlotInput.resx">
+      <DependentUpon>PlotInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\Tools\PlotLayer1.resx">
+      <DependentUpon>PlotLayer1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\Tools\PlotOutput.resx">
+      <DependentUpon>PlotOutput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherForms\Tools\StimuliCreator.resx">
+      <DependentUpon>StimuliCreator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SNNmain.resx">
+      <DependentUpon>SNNmain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SNNmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SNNmain.Designer.cs">
+      <DependentUpon>SNNmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StructureElements\ANNinput.cs" />
+    <Compile Include="StructureElements\ANNneuron.cs" />
+    <Compile Include="StructureElements\ArtificialNeuron.cs" />
+    <Compile Include="StructureElements\ArtificialNeuronArgs.cs" />
+    <Compile Include="StructureElements\InputNeuron.cs" />
+    <Compile Include="StructureElements\InputNeuronArgs.cs" />
+    <Compile Include="StructureElements\Neuron.cs" />
+    <Compile Include="StructureElements\NeuronArgs.cs" />
+    <Compile Include="StructureElements\Synapse.cs" />
+    <Compile Include="StructureElements\SynapseArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MethodsLibrary\MethodsLibrary.csproj">
+      <Project>{9EEF97A9-795D-41A7-9923-4024721238AD}</Project>
+      <Name>MethodsLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

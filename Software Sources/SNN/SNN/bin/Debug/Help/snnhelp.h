@@ -1,0 +1,26 @@
+#define GeneralInformation 270
+#define licence 280
+#define installation 290
+#define folders 300
+#define GettingStarted 70
+#define CreatingNewStructure 80
+#define LoadingSavingStructure 90
+#define DetailsWindow 120
+#define ContextMenuDetails 130
+#define MembranePotential 140
+#define BeforeSimulation 160
+#define Initialization 170
+#define initialization---simulation-preferences 320
+#define initialization-data-source 330
+#define initialization---input-coding 340
+#define initialization---network-initialization 350
+#define initialization---learning-rules 360
+#define initialization---simulation 370
+#define SimulationFromFile 190
+#define ManualSimulation 200
+#define PlotSpikes 220
+#define GaussianReceptiveFields 230
+#define InputFileGenerator 240
+#define GenerateVHDLCode 250
+#define Options 260
+

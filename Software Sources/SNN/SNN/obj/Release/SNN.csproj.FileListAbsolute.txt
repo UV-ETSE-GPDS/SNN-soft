@@ -1,0 +1,17 @@
+D:\Projekty\SNN\SNN\bin\Release\SNN.exe.config
+D:\Projekty\SNN\SNN\obj\Release\ResolveAssemblyReference.cache
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Help.About.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.MDIforms.WorkSpace.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Simulation.PotentialGraph.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Splash.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Tools.ApplicationOptions.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Tools.Gaussian.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Tools.Generator.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Tools.NetworkPlot.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Tools.PlotInput.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Tools.PlotLayer1.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Tools.PlotOutput.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.OtherForms.Tools.StimuliCreator.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.Properties.Resources.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.SNNmain.resources
+D:\Projekty\SNN\SNN\obj\Release\SNN.csproj.GenerateResource.Cache

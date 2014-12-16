@@ -1,0 +1,61 @@
+[OPTIONS]
+Language=0x409 English (United States)
+Default Font=Arial,8,0
+TITLE=SNNHelp
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Auto Index=Yes
+Default Window=Main
+Compiled file=snnhelp.chm
+Error Log file=snnhelp.log
+Contents file=snnhelp.hhc
+Index File=snnhelp.hhk
+Default Topic=GeneralInformation.html
+
+[FILES]
+GeneralInformation.html
+licence.html
+installation.html
+folders.html
+GettingStarted.html
+CreatingNewStructure.html
+LoadingSavingStructure.html
+DetailsWindow.html
+ContextMenuDetails.html
+MembranePotential.html
+BeforeSimulation.html
+Initialization.html
+initialization---simulation-preferences.html
+initialization-data-source.html
+initialization---input-coding.html
+initialization---network-initialization.html
+initialization---learning-rules.html
+initialization---simulation.html
+SimulationFromFile.html
+ManualSimulation.html
+PlotSpikes.html
+GaussianReceptiveFields.html
+InputFileGenerator.html
+GenerateVHDLCode.html
+Options.html
+
+
+
+
+[WINDOWS]
+Main="SNNHelp","snnhelp.hhc","snnhelp.hhk","GeneralInformation.html","GeneralInformation.html",,,,,0x61520,200,0x384e,[0,0,1024,591],0x307e,,,,,,0
+Popup="Popup","snnhelp.hhc","snnhelp.hhk","GeneralInformation.html","GeneralInformation.html", ,,,,0x00061520,200, 0x0000384E,[50,50,450,450],0x307e,0x8,,,,,0
+
+
+[MAP]
+#include snnhelp.h
+
+
+
+[TEXT POPUPS]
+CSHelp.txt
+
+ 
+
